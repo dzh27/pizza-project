@@ -113,9 +113,7 @@ const Home: FC = () => {
       return false;
     })
     .map((obj: any) => (
-      <Link key={obj.id} to={`/pizza/${obj.id}`}>
         <PizzaBlock {...obj} />
-      </Link>
     ));
 
   return (

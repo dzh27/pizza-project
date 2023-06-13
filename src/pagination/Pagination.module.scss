@@ -4,20 +4,20 @@
 
     a {
       display: inline-block;
-      color: #fe5f1e;
+      color: #2b577a;
       text-align: center;
       justify-content: center;
       align-self: center;
       width: 45px;
       height: 42px;
       padding: 9px;
-      border: 1px solid #fe5f1e;
+      border: 1px solid #2b577a;
       border-radius: 30px;
       margin-right: 10px;
       cursor: pointer;
 
       &:hover {
-        background-color: #fe5f1e;
+        background-color: #2b577a;
         color: #fff;
       }
     }
@@ -26,7 +26,7 @@
   :global {
     .selected {
       a {
-        background-color: #fe5f1e;
+        background-color: #2b577a;
         color: #fff;
       }
     }

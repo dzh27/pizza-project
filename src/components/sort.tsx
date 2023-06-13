@@ -20,7 +20,7 @@ export const sortList: SortItem[] = [
   { name: "названию (Я → А)", sortProperty: SortPropertyEnum.TITLE_DESC },
 ];
 
-function Sort() {
+function SortBlock() {
   const dispatch = useDispatch();
   
   const sort = useSelector(sortSelector);
@@ -76,4 +76,4 @@ function Sort() {
   );
 }
 
-export default Sort;
+export default SortBlock;
